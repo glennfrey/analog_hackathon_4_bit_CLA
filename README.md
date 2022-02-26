@@ -32,12 +32,12 @@ Carry Lookahead Adder (CLA) or parallel adder is faster than the normal Full Add
 I will be designing a 4-bit Carry Lookahead Adder by using conventional static CMOS. The proposed circuit will be implemented in Synopsys EDA tool and will be done using 28nm technology. Basic element of the circuit is implemented using NMOS and PMOS. Looking at the diagram in Figure 1, the general formula for carry-out bits can be written as: 𝐶𝑖+1 = 𝐶𝑖 (𝐴𝑖 + 𝐵𝑖 ) + 𝐴𝑖𝐵𝑖. Once the carry-out bits have been calculated, the sums are found using the simple XOR operation. Although the equation is similar to equations of 4-bit Ripple Carry Adder (RCA), the transistor level design methodology presented in this section will transform the RCA equations into CLA process.
 
 ## Reference Circuit Diagram
-![](analog_hackathon/reference_circuit.png)
-![](analog_hackathon/CLA_reference_circuit.png)
-![](analog_hackathon/xor.png)
+![](analog/reference_circuit.png)
+![](analog/CLA_reference_circuit.png)
+![](analog/xor.png)
 
 ## Reference Circuit Waveform
-![](analog_hackathon/CLA_reference_waveform.png)
+![](analog/CLA_reference_waveform.png)
 
 ## Desirable Truth Table
 ![](truth_table.png)
@@ -58,43 +58,43 @@ I will be designing a 4-bit Carry Lookahead Adder by using conventional static C
 
 # Simulation in Synopsys
 ## XOR_Block
-![](analog_hackathon/xor_schematic.png)
-![](analog_hackathon/xor_tb.png)
-![](analog_hackathon/xor_waveform.png)
+![](analog/xor_schematic.png)
+![](analog/xor_tb.png)
+![](analog/xor_waveform.png)
 
 ## Carry_Lookahead_bit1_Block
-![](analog_hackathon/CLA_1_schematic.png)
-![](analog_hackathon/CLA_1_tb.png)
-![](analog_hackathon/CLA_1_waveform.png)
+![](analog/CLA_1_schematic.png)
+![](analog/CLA_1_tb.png)
+![](analog/CLA_1_waveform.png)
 
 ## Carry_Lookahead_bit2_Block
-![](analog_hackathon/CLA_2_schematic.png)
-![](analog_hackathon/CLA_2_tb.png)
-![](analog_hackathon/CLA_2_waveform.png)
+![](analog/CLA_2_schematic.png)
+![](analog/CLA_2_tb.png)
+![](analog/CLA_2_waveform.png)
 
 ## Carry_Lookahead_bit3_Block
-![](analog_hackathon/CLA_3_schematic.png)
-![](analog_hackathon/CLA_3_tb.png)
-![](analog_hackathon/CLA_3_waveform.png)
+![](analog/CLA_3_schematic.png)
+![](analog/CLA_3_tb.png)
+![](analog/CLA_3_waveform.png)
 
 ## Carry_Lookahead_bit4_Block
-![](analog_hackathon/CLA_4_schematic.png)
-![](analog_hackathon/CLA_4_tb.png)
-![](analog_hackathon/CLA_4_waveform.png)
-![](analog_hackathon/CLA_4_waveform1.png)
-![](analog_hackathon/CLA_4_waveform2.png)
-![](analog_hackathon/CLA_4_waveform3.png)
+![](analog/CLA_4_schematic.png)
+![](analog/CLA_4_tb.png)
+![](analog/CLA_4_waveform.png)
+![](analog/CLA_4_waveform1.png)
+![](analog/CLA_4_waveform2.png)
+![](analog/CLA_4_waveform3.png)
 
 ## Carry_Lookahead_Adder_4bit
-![](analog_hackathon/CLA_final_schematic.png)
-![](analog_hackathon/CLA_final_tb.png)
-![](analog_hackathon/CLA_final_waveform.png)
+![](analog/CLA_final_schematic.png)
+![](analog/CLA_final_tb.png)
+![](analog/CLA_final_waveform.png)
 
 ## Waveform
-![](analog_hackathon/CLA_final_waveform1.png)
-![](analog_hackathon/CLA_final_waveform2.png)
-![](analog_hackathon/CLA_final_waveform3.png)
-![](analog_hackathon/CLA_final_waveform4.png)
+![](analog/CLA_final_waveform1.png)
+![](analog/CLA_final_waveform2.png)
+![](analog/CLA_final_waveform3.png)
+![](analog/CLA_final_waveform4.png)
 
 
 ## Netlist
