@@ -59,7 +59,7 @@ I will be designing a 4-bit Carry Lookahead Adder by using conventional static C
 # Simulation in Synopsys
 ## XOR_Block
 ![](analog/xor_schematic.png)
-![](analog/xor_tb.png)
+![](analog/xo_tb.png)
 ![](analog/xor_waveform.png)
 
 ## Carry_Lookahead_bit1_Block
