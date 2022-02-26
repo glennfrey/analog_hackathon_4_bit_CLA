@@ -8,14 +8,12 @@
   * [Desirable Truth Table](#desirable-truth-table)
   * [Tools Used](#tools-used)
 - [Simulation in Synopsys](#simulation-in-synopsys)
-  * [Inverter_Block](#inverter_block)
-  * [Carry_Block](#carry_block)
-  * [Sum_Block](#sum_block)
-  * [Parameters set for Voltage Source for Input A](#parameters-set-for-voltage-source-for-input-a)
-  * [Parameters set for Voltage Source for Input B](#parameters-set-for-voltage-source-for-input-b)
-  * [Parameters set for Voltage Source for Input C](#parameters-set-for-voltage-source-for-input-c)
-  * [Transient Settings](#transient-settings)
-  * [Schematic of Full_Adder using the above Blocks](#schematic-of-full_adder-using-the-above-blocks)
+  * [XOR_Block](#xor_block)
+  * [Carry_Lookahead_bit1_Block](#carry_lookahead_bit1_block)
+  * [Carry_Lookahead_bit2_Block](#carry_lookahead_bit2_block)
+  * [Carry_Lookahead_bit3_Block](#carry_lookahead_bit3_block)
+  * [Carry_Lookahead_bit4_Block](#carry_lookahead_bit4_block)
+  * [Carry_Lookahead_Adder_4bit](#carry_lookahead_adder_4bit)
   * [Output Waveform](#output-waveform)
   * [Netlist](#netlist)
   * [Conclusion](#conclusion)
@@ -33,7 +31,9 @@ I will be designing a 4-bit Carry Lookahead Adder by using conventional static C
 
 ## Reference Circuit Diagram
 ![](analog/reference_circuit.png)
+##### CLA bit 1-4
 ![](analog/CLA_reference_circuit.png)
+##### XOR
 ![](analog/xor.png)
 
 ## Reference Circuit Waveform
@@ -90,7 +90,7 @@ I will be designing a 4-bit Carry Lookahead Adder by using conventional static C
 ![](analog/CLA_final_tb.png)
 ![](analog/CLA_final_waveform.png)
 
-## Waveform
+## Output Waveform
 ![](analog/CLA_final_waveform1.png)
 ![](analog/CLA_final_waveform2.png)
 ![](analog/CLA_final_waveform3.png)
