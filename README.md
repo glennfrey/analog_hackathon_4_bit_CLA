@@ -1,5 +1,5 @@
-# analog_hackathon_4_bit_CLA
-4 bit Carry Lookahead Adder
+# 4-bit Carry Lookahead Adder in CMOS 28nm technology using Synopsys
+### ANALOG HACKATHON
 
   * [Abstract](#abstract)
   * [Reference Circuit Details](#reference-circuit-details)
